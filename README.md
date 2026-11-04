@@ -1,3 +1,6 @@
+> TalTap fork of [pyasice](https://github.com/namespace-ee/pyasice) 1.2.0, published as `taltap-pyasice` (import name is still `pyasice`).
+> The only change is allowing lxml 5 and 6 (upstream pins `lxml<5`); upstream is archived.
+
 # pyasice - ASiC-E (BDOC) and XAdES Manipulation Library
 
 [![pypi Package](https://badge.fury.io/py/pyasice.png)](https://badge.fury.io/py/pyasice)

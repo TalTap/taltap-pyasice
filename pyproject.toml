@@ -1,6 +1,6 @@
 [tool.poetry]
-name = "pyasice"
-version = "1.2.0"
+name = "taltap-pyasice"
+version = "1.2.0.post1"
 description = "Manipulate ASiC-E containers and XAdES/eIDAS signatures for Estonian e-identity services"
 readme = "README.md"
 license = "ISC"
@@ -12,8 +12,8 @@ maintainers = [
     "Jyrno Ader <jyrno42@gmail.com>",
     "Jorgen Ader <jorgen.ader@gmail.com>",
 ]
-repository = "https://github.com/thorgate/pyasice"
-homepage = "https://github.com/thorgate/pyasice"
+repository = "https://github.com/TalTap/taltap-pyasice"
+homepage = "https://github.com/TalTap/taltap-pyasice"
 keywords=[
     "esteid",
     "asice",
@@ -55,7 +55,7 @@ build-backend = "poetry.core.masonry.api"
 [tool.poetry.dependencies]
 python = ">=3.7,<4.0"
 
-lxml = ">=4,<5"
+lxml = ">=4,<7"
 oscrypto = "*"
 asn1crypto = "*"
 cryptography = ">=5"
