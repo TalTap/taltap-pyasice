@@ -1,5 +1,5 @@
 > TalTap fork of [pyasice](https://github.com/namespace-ee/pyasice) 1.2.0, published as `taltap-pyasice` (import name is still `pyasice`).
-> The only change is allowing lxml 5 and 6 (upstream pins `lxml<5`); upstream is archived.
+> Changes: lxml 5 and 6 are allowed (upstream pins `lxml<5`), and upstream's unreleased OCSP fix `5b233a6` is included, so revoked or unknown certificates are rejected; upstream is archived.
 
 # pyasice - ASiC-E (BDOC) and XAdES Manipulation Library
 
